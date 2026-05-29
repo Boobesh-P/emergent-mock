@@ -1,4 +1,4 @@
-"import { Link } from \"react-router-dom\";
+import { Link } from \"react-router-dom\";
 import { motion } from \"framer-motion\";
 import SignalFlow from \"../components/orchestration/SignalFlow\";
 import { MAIL_HREF, TEL_HREF, WA_HREF } from \"../lib/contact\";
@@ -307,4 +307,3 @@ function Principle({ num, title, body }) {
         </div>
     );
 }
-"

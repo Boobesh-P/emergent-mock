@@ -1,4 +1,4 @@
-"import { motion } from \"framer-motion\";
+import { motion } from \"framer-motion\";
 import SignalFlow from \"../components/orchestration/SignalFlow\";
 import { CONTACT, MAIL_HREF, TEL_HREF, WA_HREF } from \"../lib/contact\";
 
@@ -260,4 +260,3 @@ function ContactCard({ num, label, value, href, external, testid }) {
         </a>
     );
 }
-"
